@@ -1,0 +1,7 @@
+@baseUrl = http://localhost/market/backend
+
+### CREATE USER
+POST {{baseUrl}}/users/create_user.php
+Content-Type: application/x-www-form-urlencoded
+
+first_name=test&last_name=example&email=test@example.com&password=example
